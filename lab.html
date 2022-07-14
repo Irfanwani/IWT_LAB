@@ -1,17 +1,95 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>
-        test page
-    </title>
+    <title>Lab course IWT</title>
+    <style>
+        td {
+            text-align: center;
+        }
+        h1 {
+            color: teal;
+        }
+    </style>
+
+    <link rel="stylesheet" href="lab.css">
 </head>
 
 <body>
+    <marquee behavior='alternate' direction="left">This is a marquee text with alternate behavior</marquee>
+    <marquee behavior='slide' direction="left">This is a marquee text with slide behavior</marquee>
+    <marquee behavior='scroll' direction="right">This is a marquee text with scroll behavior</marquee>
+    <marquee behavior="scroll" direction="up" vspace="100px" bgcolor="cyan" >This is another marquee text with some extra props</marquee>
 
-    <p>this is some text</p>
+    <h1>This is h1 tag</h1>
+    <h2>This is h2 tag</h2>
+    <h3>This is h3 tag</h3>
+    <h4>This is h4 tag</h4>
+    <h5>This is h5 tag</h5>
+    <h6>This is h6 tag</h6>
+
+    <p>Paragrah tag</p>
+
+    <strong>Tables in HTML (This title is bold because we used 'strong' tags to wrap it )</strong>
+
+    <p>Different rows in a table are defined using tr tag and different cells are defined using tags th (for header cell) or td cell (for a daughter cell i.e, which stores the data). Also used border prop to set the border width of the table.</p>
+
+    <p>I also used inline styling to remove the margin between the cells.</p>
+    <p>
+        Used embedded css (see head) to align text in center in the cells and to do other things.
+    </p>
+
+    <table border="10" style="border-collapse: collapse;" width="100%">
+        <tr>
+            <th>Enrollment Number</th>
+            <th>Name</th>
+            <th>contact</th>
+        </tr>
+
+        <tr>
+            <td>1917CUKmr17</td>
+            <td>Irfan Mehraj Wani</td>
+            <td>123456789</td>
+        </tr>
+
+        <tr>
+            <td>1917CUKmr16</td>
+            <td>Inbisat Yousuf</td>
+            <td>213465879</td>
+        </tr>
+
+        <tr>
+            <td>1917CUKmr33</td>
+            <td>Shahid Zaffer</td>
+            <td>1234432112</td>
+        </tr>
+
+        <tr>
+            <td>1917CUKmr22</td>
+            <td>Mohammad Imran Bhat</td>
+            <td>3434345667</td>
+        </tr>
+
+        <tr>
+            <td>1917CUKmr38</td>
+            <td>Waqar Ahmad</td>
+            <td>2178905643</td>
+        </tr>
+    </table>
+
+    <p>Rendering an image below. Also using alt prop (text which is shown if image fails to render) and some in-line styling.</p>
+    <img style="width: 90%; margin-left: 5%" src="blazar.jpeg" alt="blazar image">
+
+
+    <p>some examples of Hyperlinks(text which acts as a link and can take to the url specified when clicked) </p>
+
+    <a href="https://google.com">Google</a>
+
+    <a href="https://github.com">Github</a>
+
+    <a href="https://stackoverflow.com">Stackoverflow</a>
+
 
 </body>
-
 
 </html>

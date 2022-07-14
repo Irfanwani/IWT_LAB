@@ -1,0 +1,10 @@
+a {
+    color: grey;
+    text-decoration: none;
+}
+/* these styles will get applied on the a tags when ever we hover over them */
+a:hover {
+    color: black;
+    transition: 0.5s;
+    text-decoration: underline;
+}
