@@ -1,3 +1,7 @@
+body {
+    background-color: lightgrey;
+}
+
 a {
     color: grey;
     text-decoration: none;
@@ -7,4 +11,35 @@ a:hover {
     color: black;
     transition: 0.5s;
     text-decoration: underline;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: teal;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 100px 0px 100px 0px;border-radius: 10px;
+    box-shadow: 3px 3px;
+
+}
+
+div {
+    margin: 5px 0px 5px 0px;
+}
+
+input {
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: teal;
+    background-color: aqua;
+
 }
